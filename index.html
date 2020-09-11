@@ -10,51 +10,24 @@
     <title>Travelax</title>
 </head>
 
-<body <div class="navigation">
-    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+<body>
 
-    <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">
+    <nav class="navbar">
+        <a href="index.html" class="navbar__logo"> <img src="./img/logo.svg" alt=""> </a>
 
-        </span>
-    </label>
-
-    <div class="navigation__background">
-        &nbsp;
-    </div>
-    <nav class="navigation__nav">
-        <ul class="navigation__list">
-
-            <li class="navigation__item">
-                <a href="#about" class="navigation__link"><span>01</span> Acerca de nosotros</a>
-            </li>
-
-            <li class="navigation__item">
-                <a href="" class="navigation__link"><span>02 </span> Beneficios</a>
-            </li>
-
-            <li class="navigation__item">
-                <a href="#catalogo" class="navigation__link"><span>03 </span> PCatalogo</a>
-            </li>
-
-            <li class="navigation__item">
-                <a href="#testimonials" class="navigation__link"><span>04 </span> Testimonios</a>
-            </li>
-
-            <li class="navigation__item">
-                <a href="" class="navigation__link"><span>05 </span> ¡Contactanos Ahora!</a>
-            </li>
-
+        <ul class="navbar__list">
+            <li class="navbar__item"><a href="#about" class="navbar__link">Acerca de nosotros</a></li>
+            <li class="navbar__item"><a href="#features" class="navbar__link">Beneficios</a></li>
+            <li class="navbar__item"><a href="#catalogo" class="navbar__link">Catalogo</a></li>
+            <li class="navbar__item"><a href="#contact" class="navbar__link">Contacto</a></li>
         </ul>
+        <div class="burger-menu">
+            <span class="burger-menu__btn"></span>
+        </div>
     </nav>
 
-    </div>
 
     <header class="header">
-        <div class="header-logo-box">
-            <img src="./img/logo.svg" alt="Logo" class="header__logo">
-        </div>
-
         <div class="header__text-box">
             <h1 class="heading-primary">
                 <span class="heading-primary--main u-margin-bottom-medium">Lleva todo contigo</span>
@@ -80,7 +53,6 @@
                     <p class="paragraph">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas laudantium facere aut? Minus possimus, et tempore blanditiis repellendus beatae fuga eum ipsam ipsum quibusdam vel !
                     </p>
-
                     <h3 class="heading-tertiary u-margin-bottom-small">
                         Live adventures like you never have before
                     </h3>
@@ -90,7 +62,6 @@
                 </div>
 
                 <div class="col-1-of-2">
-
                     <div class="composition">
                         <img srcset="./img/nat-1.jpg 300w, /img/nat-1-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw,  
                            (max-width: 37.5em) 30vw, 300px" src="./img/nat-1-large.jpg" alt="Landscape" class="composition__photo composition__photo--p1">
@@ -98,12 +69,6 @@
                         <img srcset="./img/nat-2.jpg 300w, /img/nat-2-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw,     (max-width: 37.5em) 30vw, 300px" src="./img/nat-2-large.jpg" alt="Landscape" class="composition__photo composition__photo--p2">
 
                         <img srcset="./img/nat-3.jpg 300w, /img/nat-3-large.jpg 1000w" sizes="(max-width: 56.25em) 20vw,     (max-width: 37.5em) 30vw, 300px" src="./img/nat-3-large.jpg" alt="Landscape" class="composition__photo composition__photo--p3">
-
-
-                        <!-- <img src="./img/nat-1-large.jpg" alt="landscape" class="composition__photo composition__photo--p1">
-                        <img src="./img/nat-2-large.jpg" alt="landscape 2" class="composition__photo composition__photo--p2">
-                        <img src="./img/nat-3-large.jpg" alt="landscape 3" class="composition__photo composition__photo--p3">
-                    -->
                     </div>
                 </div>
         </section>
@@ -540,7 +505,7 @@
 
                             <!-- Form Group -->
                             <div class="form__group ">
-                                <button class="btn btn--green">Next Step &rarr;</button>
+                                <button class="btn btn--green">Enviar &rarr;</button>
                             </div>
 
                         </form>
@@ -589,11 +554,8 @@
             </article>
         </section>
     </footer>
-
-
-
-
-
 </body>
+
+<script src="./js/script.js"></script>
 
 </html>

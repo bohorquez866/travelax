@@ -1,8 +1,9 @@
-*::after,
-*::before {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: inherit
 }
 
 html {
@@ -24,10 +25,7 @@ html {
 }
 
 body {
-    box-sizing: border-box;
-    @include respond (tab-port) {
-        padding: 0;
-    }
+    margin-top: 5rem;
 }
 
 figure {
@@ -37,4 +35,22 @@ figure {
 ::selection {
     color: $white;
     background-color: transparentize($color-primary, .1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
 }

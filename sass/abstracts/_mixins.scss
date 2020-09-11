@@ -24,6 +24,12 @@
 
 */
 
+@mixin mq-min($breakpoint) {
+    @media only screen and(max-width: 75em) {
+        @content
+    }
+}
+
 //If is just like if in programming: 
 @mixin respond ($breakpoint) {
     //600px
