@@ -1,0 +1,82 @@
+    .footer {
+        background-color: $grey-color-dark-2;
+        color: $color-grey-light-1;
+        padding: 10rem 0;
+        font-size: 1.4rem;
+        @include respond (tab-port) {
+            padding: 8rem 0;
+        }
+        &__logo-box {
+            text-align: center;
+            margin-bottom: 8rem;
+            max-width: 100%;
+            @include respond (tab-port) {
+                margin-bottom: 6rem;
+            }
+        }
+        &__logo {
+            width: 15rem;
+            height: auto;
+        }
+        &__navigation {
+            border-top: 1px solid $color-grey-light-2;
+            padding: 2rem;
+            display: inline-block;
+            @include respond (tab-port) {
+                width: 100%;
+                text-align: center;
+            }
+            @include respond (phone) {
+                width: auto;
+            }
+        }
+        &__list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        &__item {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+        }
+        &__link {
+            &:link,
+            &:visited {
+                color: inherit;
+                font-size: 1.4rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                display: inline-block;
+                transition: all .2s ease-out;
+                color: $color-grey-light-1;
+            }
+            &:hover,
+            &:active {
+                color: $color-primary;
+                box-shadow: 0 1rem 2rem rgba($black, .4);
+                transform: rotate(5deg) scale(1.3);
+            }
+        }
+        &__copyright {
+            margin: 0;
+            color: $grey-color;
+            text-align: center;
+            border-top: 1px solid $color-grey-light-2;
+            padding: 2rem;
+            width: 80%;
+            float: right;
+            @include respond (tab-port) {
+                width: 100%;
+                float: none;
+            }
+            @include respond (phone) {
+                width: auto;
+                float: none;
+            }
+        }
+        a {
+            color: white;
+        }
+    }

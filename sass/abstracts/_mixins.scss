@@ -1,0 +1,59 @@
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin centerContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//Media Queries 
+
+/*
+0-600px --> Phone
+600px-900px --> Tablet Portrait
+900px-1200px --> Tablet Landscape
+1200px-1800px --> Normal Desktop/laptop
+1800> --> Big Desktop  
+
+*/
+
+//If is just like if in programming: 
+@mixin respond ($breakpoint) {
+    //600px
+    //900px
+    @if $breakpoint==tab-land {
+        @media (max-width: 75em) {
+            @content
+        }
+    }
+    @if $breakpoint==tab-port {
+        @media (max-width: 56.25em) {
+            @content
+        }
+    }
+    @if $breakpoint==phone {
+        @media (max-width: 37.5em) {
+            @content
+        }
+    }
+    @if $breakpoint==phone-small {
+        @media (max-width: 20em) {
+            @content
+        }
+    }
+    //1200px
+    @if $breakpoint==big-desk {
+        @media (min-width: 112.5em) {
+            @content
+        }
+    }
+}
+
+//* In order to apply it it is: @include respond(phone) { Code here }

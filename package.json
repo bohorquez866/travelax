@@ -1,0 +1,19 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "Landing page for Natours",
+    "main": "index.js",
+    "scripts": {
+        "compile: sass": "node-sass sass/main.scss css/style.scss -w",
+        "concat:css": "concat -o css/style.concat.css css/iconfonts.css sass/main.css",
+        "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' style.concat.css --o style.prefix.css",
+        "compress:css": "node-sass css/style.concat.css css/style.css --output-style- compressed"
+    }
+    "author": "Jesus",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^9.7.6",
+        "node-sass": "^4.13.1"
+    }
+    "dependencies": {}
+}
