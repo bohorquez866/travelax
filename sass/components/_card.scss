@@ -10,10 +10,10 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 60rem;
+    height: 50rem;
     &__side {
         overflow: hidden;
-        height: 60rem;
+        height: 50rem;
         transition: all .8s ease-out;
         position: absolute;
         top: 0;
@@ -27,7 +27,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 4rem;
+        margin-bottom: 8rem;
     }
     &__side--back {
         background-color: $color-primary-light;
@@ -45,7 +45,7 @@
         border-top-right-radius: 3px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 40rem;
+        height: 35rem;
         margin: 0;
         background-position: 0 0;
         background-blend-mode: screen;

@@ -237,7 +237,6 @@
   position: absolute;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  outline-offset: 2rem;
 }
 
 @media (max-width: 56.25em) {
@@ -291,13 +290,13 @@
 }
 
 .composition__photo:hover {
-  outline: 1.5rem solid #326229;
+  -webkit-box-shadow: 0 0 0px 5px #326229;
+          box-shadow: 0 0 0px 5px #326229;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transform: translateY(-0.5rem);
           transform: translateY(-0.5rem);
-  -webkit-box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-          box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
   z-index: 20;
 }
 
@@ -359,7 +358,7 @@
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 60rem;
+  height: 50rem;
 }
 
 .card:not(:last-of-type) {
@@ -368,7 +367,7 @@
 
 .card__side {
   overflow: hidden;
-  height: 60rem;
+  height: 50rem;
   -webkit-transition: all .8s ease-out;
   transition: all .8s ease-out;
   position: absolute;
@@ -391,7 +390,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 
 .card__side--back {
@@ -415,7 +414,7 @@
   border-top-right-radius: 3px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 35rem;
   margin: 0;
   background-position: 0 0;
   background-blend-mode: screen;
@@ -841,6 +840,38 @@
   .form {
     padding: 4rem 2rem;
   }
+}
+
+.mapouter {
+  position: relative;
+  text-align: center;
+  height: 478px;
+  width: 100%;
+  margin-top: 4rem;
+  overflow: hidden;
+}
+
+.mapouter * {
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  border-radius: 1rem;
+  background: none !important;
+  height: 478px;
+  width: 100%;
+}
+
+.gmap_canvas a {
+  position: absolute;
+  bottom: -5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: White;
 }
 
 .popup {
@@ -1641,8 +1672,8 @@ body {
 }
 
 .heading-secondary:hover {
-  -webkit-transform: skewY(2deg) skewX(15deg) scale(1);
-          transform: skewY(2deg) skewX(15deg) scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
