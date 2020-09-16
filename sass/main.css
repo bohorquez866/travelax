@@ -473,7 +473,7 @@
   right: 0;
   margin: 0;
   text-align: right;
-  width: 65%;
+  width: 100%;
 }
 
 .card__heading-span {
@@ -494,6 +494,7 @@
   justify-items: stretch;
   -webkit-column-gap: 1rem;
           column-gap: 1rem;
+  margin: 0 auto;
 }
 
 .card__details ul li {
@@ -501,6 +502,10 @@
   font-size: 1.5rem;
   padding: 1rem;
   border-bottom: 1px solid #eee;
+}
+
+.card__details ul li strong {
+  display: block;
 }
 
 .card__cta {
