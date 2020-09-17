@@ -12,7 +12,7 @@ const navbar = document.querySelector('.navbar');
 const sectionOne = document.querySelector('.header');
 
 const sectionOneOpt = {
-    rootMargin: "-50px"
+    rootMargin: "-150px"
 };
 
 const sectionObserver = new IntersectionObserver((entries, sectionObserver) => {

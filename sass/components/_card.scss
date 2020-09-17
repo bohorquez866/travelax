@@ -50,36 +50,36 @@
         background-position: 0 0;
         background-blend-mode: screen;
         @include respond(tab-port) {
-            height: 25rem;
+            height: 30rem;
         }
         &--1 {
-            background-image: url(/../img/mochilas/mochila-1.jpeg);
+            background-image: url(/../img/mochilas/mochila-1.png);
         }
         &--2 {
-            background-image: url(/../img/mochilas/mochila-2.jpeg);
+            background-image: url(/../img/mochilas/mochila-2.png);
         }
         &--3 {
-            background-image: url(/../img/mochilas/mochila-3.jpeg);
+            background-image: url(/../img/mochilas/mochila-3.png);
         }
         //backpacks
         &--4 {
-            background-image: url(/../img/camping-backpacks/backpack-1.jpeg);
+            background-image: url(/../img/camping-backpacks/backpack-1.png);
         }
         &--5 {
-            background-image: url(/../img/camping-backpacks/backpack-2.jpeg);
+            background-image: url(/../img/camping-backpacks/backpack-2.png);
         }
         &--6 {
-            background-image: url(/../img/camping-backpacks/backpack-3.jpeg);
+            background-image: url(/../img/camping-backpacks/backpack-3.png);
         }
         //maletas
         &--7 {
             background-image: url(/../img/maletas/maleta-1.jpeg);
         }
         &--8 {
-            background-image: url(/../img/maletas/maleta-2.jpeg);
+            background-image: url(/../img/maletas/maletas-2.png);
         }
         &--9 {
-            background-image: url(/../img/maletas/maleta-3.jpeg);
+            background-image: url(/../img/maletas/maletas-3.png);
         }
     }
     &__heading {

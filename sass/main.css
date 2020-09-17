@@ -87,7 +87,7 @@
 
 @media (max-width: 75em) {
   .book__form {
-    width: 70%;
+    width: 100%;
     padding: 0rem;
   }
 }
@@ -423,32 +423,32 @@
 
 @media (max-width: 56.25em) {
   .card__picture {
-    height: 25rem;
+    height: 30rem;
   }
 }
 
 .card__picture--1 {
-  background-image: url(/../img/mochilas/mochila-1.jpeg);
+  background-image: url(/../img/mochilas/mochila-1.png);
 }
 
 .card__picture--2 {
-  background-image: url(/../img/mochilas/mochila-2.jpeg);
+  background-image: url(/../img/mochilas/mochila-2.png);
 }
 
 .card__picture--3 {
-  background-image: url(/../img/mochilas/mochila-3.jpeg);
+  background-image: url(/../img/mochilas/mochila-3.png);
 }
 
 .card__picture--4 {
-  background-image: url(/../img/camping-backpacks/backpack-1.jpeg);
+  background-image: url(/../img/camping-backpacks/backpack-1.png);
 }
 
 .card__picture--5 {
-  background-image: url(/../img/camping-backpacks/backpack-2.jpeg);
+  background-image: url(/../img/camping-backpacks/backpack-2.png);
 }
 
 .card__picture--6 {
-  background-image: url(/../img/camping-backpacks/backpack-3.jpeg);
+  background-image: url(/../img/camping-backpacks/backpack-3.png);
 }
 
 .card__picture--7 {
@@ -456,11 +456,11 @@
 }
 
 .card__picture--8 {
-  background-image: url(/../img/maletas/maleta-2.jpeg);
+  background-image: url(/../img/maletas/maletas-2.png);
 }
 
 .card__picture--9 {
-  background-image: url(/../img/maletas/maleta-3.jpeg);
+  background-image: url(/../img/maletas/maletas-3.png);
 }
 
 .card__heading {
@@ -767,6 +767,7 @@
 @media (max-width: 75em) {
   .form__input {
     margin-bottom: 2rem;
+    width: 100%;
   }
 }
 
@@ -1148,13 +1149,13 @@
 .footer {
   background-color: #333;
   color: #f7f7f7;
-  padding: 10rem 0;
+  padding: 5rem 0;
   font-size: 1.4rem;
 }
 
 @media (max-width: 56.25em) {
   .footer {
-    padding: 8rem 0;
+    padding: 3rem 0;
   }
 }
 
@@ -1189,7 +1190,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 37.5em) {
+  .footer__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .footer__info a {
@@ -1218,6 +1231,8 @@
   position: fixed;
   bottom: 5rem;
   right: 3rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .navigation__checkbox {
@@ -1793,6 +1808,7 @@ body {
   -webkit-transition: all, .2s ease-out;
   transition: all, .2s ease-out;
   letter-spacing: 2px;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 56.25em) {
