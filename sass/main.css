@@ -73,7 +73,7 @@
 }
 
 .book {
-  background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 55%, transparent 55%), url(../img/nat-10.webp);
+  background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 55%, transparent 55%), url(../../img/nat-10.webp);
   background-size: cover;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
@@ -101,14 +101,14 @@
 
 @media (max-width: 75em) {
   .book {
-    background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.webp);
+    background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../../img/nat-10.webp);
     background-size: cover;
   }
 }
 
 @media (max-width: 56.25em) {
   .book {
-    background-image: Linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.webp);
+    background-image: Linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../../img/nat-10.webp);
     background-size: cover;
   }
 }

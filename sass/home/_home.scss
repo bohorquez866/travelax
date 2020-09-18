@@ -48,7 +48,7 @@
 }
 
 .book {
-    background-image: Linear-gradient(105deg, rgba($white, .9) 0%, rgba($white, .9) 55%, transparent 55%), url(../img/nat-10.webp);
+    background-image: Linear-gradient(105deg, rgba($white, .9) 0%, rgba($white, .9) 55%, transparent 55%), url(../../img/nat-10.webp);
     background-size: cover;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($black, .25);
@@ -65,11 +65,11 @@
         }
     }
     @include respond (tab-land) {
-        background-image: Linear-gradient(105deg, rgba($white, .9) 0%, rgba($white, .9) 65%, transparent 65%), url(../img/nat-10.webp);
+        background-image: Linear-gradient(105deg, rgba($white, .9) 0%, rgba($white, .9) 65%, transparent 65%), url(../../img/nat-10.webp);
         background-size: cover;
     }
     @include respond (tab-port) {
-        background-image: Linear-gradient(to right, rgba($white, .9) 0%, rgba($white, .9) 100%), url(../img/nat-10.webp);
+        background-image: Linear-gradient(to right, rgba($white, .9) 0%, rgba($white, .9) 100%), url(../../img/nat-10.webp);
         background-size: cover;
     }
 }
