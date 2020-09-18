@@ -1502,9 +1502,6 @@
 }
 
 @media (max-width: 56.25em) {
-  .navbar__link:hover {
-    color: unset;
-  }
   .navbar__link:active {
     color: #06283B;
   }

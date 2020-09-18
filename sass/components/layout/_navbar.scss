@@ -59,9 +59,7 @@
             }
         }
         @include respond(tab-port) {
-            &:hover {
-                color: unset;
-            }
+            &:hover {}
             &:active {
                 color: $color-tertiary-dark;
             }
