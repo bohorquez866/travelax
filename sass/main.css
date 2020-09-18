@@ -22,8 +22,8 @@
 
 .section-features {
   padding: 20rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.7)), to(rgba(124, 159, 36, 0.7))), url(../img/nat-4.jpg);
-  background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.7), rgba(124, 159, 36, 0.7)), url(../img/nat-4.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.7)), to(rgba(124, 159, 36, 0.7))), url(../img/nat-4.webp);
+  background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.7), rgba(124, 159, 36, 0.7)), url(../img/nat-4.webp);
   background-size: cover;
   -webkit-transform: skewY(-7deg);
           transform: skewY(-7deg);
@@ -73,7 +73,7 @@
 }
 
 .book {
-  background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 55%, transparent 55%), url(../img/nat-10.jpg);
+  background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 55%, transparent 55%), url(../img/nat-10.webp);
   background-size: cover;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
@@ -101,14 +101,14 @@
 
 @media (max-width: 75em) {
   .book {
-    background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+    background-image: Linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.webp);
     background-size: cover;
   }
 }
 
 @media (max-width: 56.25em) {
   .book {
-    background-image: Linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg);
+    background-image: Linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.webp);
     background-size: cover;
   }
 }
@@ -428,39 +428,39 @@
 }
 
 .card__picture--1 {
-  background-image: url(/../img/mochilas/mochila-1.png);
+  background-image: url(/../img/mochilas/mochila-1.webp);
 }
 
 .card__picture--2 {
-  background-image: url(/../img/mochilas/mochila-2.png);
+  background-image: url(/../img/mochilas/mochila-2.webp);
 }
 
 .card__picture--3 {
-  background-image: url(/../img/mochilas/mochila-3.png);
+  background-image: url(/../img/mochilas/mochila-3.webp);
 }
 
 .card__picture--4 {
-  background-image: url(/../img/camping-backpacks/backpack-1.png);
+  background-image: url(/../img/camping-backpacks/backpack-1.webp);
 }
 
 .card__picture--5 {
-  background-image: url(/../img/camping-backpacks/backpack-2.png);
+  background-image: url(/../img/camping-backpacks/backpack-2.webp);
 }
 
 .card__picture--6 {
-  background-image: url(/../img/camping-backpacks/backpack-3.png);
+  background-image: url(/../img/camping-backpacks/backpack-3.webp);
 }
 
 .card__picture--7 {
-  background-image: url(/../img/maletas/maleta-1.jpeg);
+  background-image: url(/../img/maletas/maleta-1.webp);
 }
 
 .card__picture--8 {
-  background-image: url(/../img/maletas/maletas-2.png);
+  background-image: url(/../img/maletas/maletas-2.webp);
 }
 
 .card__picture--9 {
-  background-image: url(/../img/maletas/maletas-3.png);
+  background-image: url(/../img/maletas/maletas-3.webp);
 }
 
 .card__heading {
@@ -1021,8 +1021,8 @@
 .header {
   position: relative;
   height: 95vh;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(/../../img/hero.jpg);
-  background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(/../../img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(/../../img/hero.webp);
+  background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(/../../img/hero.webp);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -1038,15 +1038,15 @@
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-resolution: 192dpi) and (min-width: 37.5em) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(/../../img/hero.jpg);
-    background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(/../../img/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(/../../img/hero.webp);
+    background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(/../../img/hero.webp);
   }
 }
 
 @media (min-width: 125em) {
   .header {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(../img/hero.jpg);
-    background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(../img/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(50, 98, 41, 0.8)), to(rgba(124, 159, 36, 0.8))), url(../img/hero.webp);
+    background-image: linear-gradient(to right bottom, rgba(50, 98, 41, 0.8), rgba(124, 159, 36, 0.8)), url(../img/hero.webp);
   }
 }
 
