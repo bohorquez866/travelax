@@ -4,7 +4,7 @@ const navbarList = document.querySelector('.navbar__list');
 //open and closes mobile menu
 burguerMenu.addEventListener('click', e => {
     navbarList.classList.toggle('show-sidebar');
-});
+}, { passive: true });
 
 //change color on scroll
 const navbar = document.querySelector('.navbar');
