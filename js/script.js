@@ -7,10 +7,8 @@ burguerMenu.addEventListener('click', e => {
 });
 
 //change color on scroll
-
 const navbar = document.querySelector('.navbar');
 const sectionOne = document.querySelector('.header');
-
 const sectionOneOpt = {
     rootMargin: "-150px"
 };
