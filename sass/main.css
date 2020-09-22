@@ -350,7 +350,7 @@
 }
 
 .card {
-  width: 30%;
+  width: 27%;
   overflow: hidden;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -359,7 +359,7 @@
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem;
+  height: 40rem;
 }
 
 .card:not(:last-of-type) {
@@ -368,7 +368,7 @@
 
 .card__side {
   overflow: hidden;
-  height: 50rem;
+  height: 40rem;
   -webkit-transition: all .8s ease-out;
   transition: all .8s ease-out;
   position: absolute;
@@ -415,8 +415,9 @@
   border-top-right-radius: 3px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 35rem;
-  margin: 0;
+  height: 25rem;
+  width: 60%;
+  margin: 0 auto;
   background-position: 0 0;
   background-blend-mode: screen;
 }
@@ -657,8 +658,8 @@
 
 .story__shape {
   position: relative;
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   margin-right: 2rem;
   float: left;
   shape-outside: circle(50% at 50% 50%);

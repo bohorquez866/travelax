@@ -1,5 +1,5 @@
 .card {
-    width: 30%;
+    width: 27%;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($black, .15);
     border-radius: 2rem;
@@ -10,10 +10,10 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
-    height: 50rem;
+    height: 40rem;
     &__side {
         overflow: hidden;
-        height: 50rem;
+        height: 40rem;
         transition: all .8s ease-out;
         position: absolute;
         top: 0;
@@ -45,8 +45,9 @@
         border-top-right-radius: 3px;
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 35rem;
-        margin: 0;
+        height: 25rem;
+        width: 60%;
+        margin: 0 auto;
         background-position: 0 0;
         background-blend-mode: screen;
         @include respond(tab-port) {
