@@ -464,6 +464,10 @@
   background-image: url(/../img/maletas/maletas-3.webp);
 }
 
+.card__picture--7, .card__picture--8, .card__picture--9 {
+  width: 100%;
+}
+
 .card__heading {
   font-size: 2.3rem;
   font-weight: 300;
